@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>JSAÉ - euh.wtf</title>
+
+	<link rel="stylesheet" href="css/main.css" />
+	
+	<script src="build/main.bundle.js" defer></script>
+</head>
+<body>
+	<div id="popup">
+		<p>Entrez votre nom :</p>
+		<input type="text" id="nameInput" />
+		<br /><br />
+		<button id="playButton">Jouer</button>
+		<br />
+		<button id="leaderButton">Classement</button>
+		<br />
+		<button onclick="window.location.href='./credits.html'">Crédits</button>
+	  </div>
+
+	  <div id="popup-replay">
+		<p>Vous êtes mort !</p>
+		<div id="textdeath">Vous avez perdu</div>
+		<br /><br />
+		<button id="replayButton">Rejouer</button>
+	  </div>
+
+	  <div id="popup-leader">
+		<p>Classement de tous les temps :</p>
+		<div id="textleader">Vous avez perdu</div>
+		<br /><br />
+		<button id="menuButton">Revenir au menu</button>
+	  </div>
+
+	  <div id="classement">
+		<p>Classement :</p>
+		<div id="textclassement">classement</div>
+	  </div>
+
+	  <div id="score">
+		<p>Classement :</p>
+	  </div>
+	<div id="canvas-container"></div>
+</body>
+</html>

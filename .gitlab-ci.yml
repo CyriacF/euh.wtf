@@ -1,0 +1,6 @@
+fmt:
+  image: node:18
+  script:
+    - npm install
+    - npm run fmt
+    - git diff --exit-code
